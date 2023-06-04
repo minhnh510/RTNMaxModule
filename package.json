@@ -1,0 +1,39 @@
+{
+    "name": "rtn-max-module",
+    "version": "0.0.1",
+    "description": "Add numbers with Turbo Native Modules",
+    "react-native": "js/index",
+    "source": "js/index",
+    "files": [
+      "js",
+      "android",
+      "ios",
+      "rtn-max-module.podspec",
+      "!android/build",
+      "!ios/build",
+      "!**/__tests__",
+      "!**/__fixtures__",
+      "!**/__mocks__"
+    ],
+    "keywords": ["react-native", "ios", "android"],
+    "repository": "https://github.com/minhnh510/rtn-max-module",
+    "author": "Minh Nguyen <minhnh510@gmail.com> (https://github.com/minhnh510)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/minhnh510/rtn-max-module/issues"
+    },
+    "homepage": "https://github.com/minhnh510/rtn-max-module#readme",
+    "devDependencies": {},
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    },
+    "codegenConfig": {
+      "name": "RTNMaxModuleSpec",
+      "type": "modules",
+      "jsSrcsDir": "js",
+      "android": {
+        "javaPackageName": "com.rtnmaxmodule"
+      }
+    }
+  }
